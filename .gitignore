@@ -19,3 +19,4 @@ build/
 !djangojs.po
 !djangojs.mo
 
+venv/
