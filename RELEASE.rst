@@ -1,6 +1,48 @@
 Release Notes
 =============
 
+Version 0.15.0 (Released February 01, 2021)
+--------------
+
+- fixes utc time assignment to download all submissions (#298)
+- upgrading celery==5.0.5 (#293)
+
+Version 0.14.0 (Released January 19, 2021)
+--------------
+
+- switch from travis to github actions
+- BOM-2175 : Upgrade To Python 3.8 (#290)
+
+Version 0.13.1 (Released December 10, 2020)
+--------------
+
+- Pulling the APP from LMS breaks if we're running in CMS
+- Fix DeprecatedEdxPlatformImportWarning (#286)
+
+Version 0.13.0 (Released October 13, 2020)
+--------------
+
+- Fix the release failure over openEdx
+
+Version 0.12.0 (Released October 07, 2020)
+--------------
+
+- Allow a grade of zero
+- removed deprecated usage of xblock fragment (#270)
+- Fix mismatch version (#272)
+
+Version 0.11.1 (Released August 12, 2020)
+--------------
+
+- Fix mismatch version (#272)
+
+Version 0.11.0 (Released May 19, 2020)
+--------------
+
+- Temporarily disable integration and Python 2 tests (#267)
+- Added missing decode to resource loading
+- Fixed build error involving jsonfield import in edx-submissions
+
 Version 0.10.0 (Released October 28, 2019)
 --------------
 

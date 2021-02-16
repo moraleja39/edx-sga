@@ -1,7 +1,4 @@
 """Setup for edx-sga XBlock."""
-
-from __future__ import absolute_import
-
 import os
 
 from setuptools import find_packages, setup
@@ -32,6 +29,7 @@ setup(
     install_requires=[
         'XBlock',
         'xblock-utils',
+        'web_fragments',
     ],
     entry_points={
         'xblock.v1': [
